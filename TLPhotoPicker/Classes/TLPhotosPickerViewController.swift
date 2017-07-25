@@ -584,7 +584,7 @@ extension TLPhotosPickerViewController: UICollectionViewDelegate,UICollectionVie
             cell.selectedAsset = true
             cell.orderLabel?.text = "\(asset.selectedOrder)"
             if asset.type != .photo {
-                playVideo(asset: asset, indexPath: indexPath)
+                // playVideo(asset: asset, indexPath: indexPath)
             }
         }
     }
